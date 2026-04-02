@@ -15,6 +15,9 @@ This project simulates a real enterprise network using virtual machines.
 * VMware Workstation
 * Windows Server 2025
 * Windows 10
+
+# 🔹 Part 1: Windows Server Installation
+
 ## 📸 Screenshots
 
 ### 🖥️ Screen 1: VMware Setup
@@ -43,3 +46,8 @@ This step shows selecting the Windows Server 2019 Standard (Desktop Experience) 
 This step shows the Windows Server 2019 desktop after successful installation. The system is now ready for initial configuration and role setup.
 
 ![Screen 5](./windows-desktop.png)
+
+# 🔹 Part 2: Active Directory Configuration
+
+In this part, we configure Active Directory Domain Services (AD DS), promote the server to a Domain Controller, and create a domain environment.
+
