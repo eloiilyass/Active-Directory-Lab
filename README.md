@@ -122,3 +122,8 @@ This step shows creating a domain user inside an Organizational Unit.
 
 ![Screen 15](./user.png)
 
+### 🖥️ Screen 17: Windows 10 Edition Selection
+
+This step shows selecting Windows 10 Professional edition for the client machine installation.
+
+![Screen 17](./win10-edition.png)
