@@ -143,4 +143,8 @@ This step shows the process and confirmation of joining the Windows 10 client to
   <img src="./join-domain.png" width="45%">
 </p>
 
+### 🖥️ Screen 20: Domain User Login
 
+This step shows logging into the Windows 10 client machine using a domain user account after successfully joining the lab.local domain.
+
+![Screen 20](./client-login.png)
