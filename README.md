@@ -15,3 +15,6 @@ This project simulates a real enterprise network using virtual machines.
 * VMware Workstation
 * Windows Server 2025
 * Windows 10
+## 📸 Screenshots
+
+### 🖥️ Screen 1: VMware Setup
