@@ -41,4 +41,5 @@ This step shows selecting the Windows Server 2019 Standard (Desktop Experience) 
 ### 🖥️ Screen 5: Windows Server First Boot
 
 This step shows the Windows Server 2019 desktop after successful installation. The system is now ready for initial configuration and role setup.
+
 ![Screen 5](./windows-desktop.png)
