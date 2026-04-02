@@ -49,6 +49,19 @@ This step shows the Windows Server 2019 desktop after successful installation. T
 
 # 🔹 Part 2: Active Directory Configuration
 
+### 🖥️ Screen 5.1: Server Network Configuration
+
+This step shows configuring the Windows Server network settings with a static IP address and DNS for the Domain Controller.
+
+* IP Address: 192.168.56.10
+* Subnet Mask: 255.255.255.0
+* Preferred DNS Server: 192.168.56.10
+
+This configuration ensures that the server can act as a Domain Controller and DNS server for the network.
+
+![Screen 5.1](./server-network.png)
+
+
 In this part, we install and configure Active Directory Domain Services (AD DS), promote the server to a Domain Controller, and create a domain environment.
 
 ---
