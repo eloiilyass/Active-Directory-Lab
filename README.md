@@ -21,7 +21,7 @@ This project simulates a real enterprise network using virtual machines.
 ## 📸 Screenshots
 
 ### 🖥️ Screen 1: VMware Setup
-.![Screen 1](./vm-setup.png)
+![Screen 1](./vm-setup.png)
 
 ### 🖥️ Screen 2: VM BIOS Configuration
 
@@ -102,7 +102,7 @@ This step confirms the installation of Active Directory Domain Services before s
 
 This step shows the option to promote the server to a Domain Controller after installing Active Directory Domain Services.
 
-![Screen 11](./promote.png)
+![Screen 10](./promote.png)
 
 ### 🖥️ Screen 11: Domain Controller Installation
 
@@ -171,3 +171,11 @@ This step shows the process and confirmation of joining the Windows 10 client to
 This step shows logging into the Windows 10 client machine using a domain user account after successfully joining the lab.local domain.
 
 ![Screen 20](./client-login.png)
+
+## ✅ Conclusion
+
+In this project, I successfully built a complete Active Directory lab environment using Windows Server and Windows 10.
+
+I configured a Domain Controller, set up DNS, created users and organizational units, and joined a client machine to the domain.
+
+This lab demonstrates my understanding of Windows Server administration, networking, and Active Directory concepts.
