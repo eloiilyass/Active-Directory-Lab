@@ -127,3 +127,20 @@ This step shows creating a domain user inside an Organizational Unit.
 This step shows selecting Windows 10 Professional edition for the client machine installation.
 
 ![Screen 17](./win10-edition.png)
+
+### 🖥️ Screen 18: Windows 10 First Boot
+
+This step shows the Windows 10 desktop after installation. The system is now ready to be configured and joined to the domain.
+
+![Screen 18](./win10-desktop.png)
+
+### 🖥️ Screen 19: Join Windows 10 to Domain (Success)
+
+This step shows the process and confirmation of joining the Windows 10 client to the lab.local domain.
+
+<p align="center">
+  <img src="./join-domain-step.png" width="45%">
+  <img src="./join-domain.png" width="45%">
+</p>
+
+
