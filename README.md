@@ -49,5 +49,15 @@ This step shows the Windows Server 2019 desktop after successful installation. T
 
 # 🔹 Part 2: Active Directory Configuration
 
-In this part, we configure Active Directory Domain Services (AD DS), promote the server to a Domain Controller, and create a domain environment.
+In this part, we install and configure Active Directory Domain Services (AD DS), promote the server to a Domain Controller, and create a domain environment.
 
+---
+
+## 🎯 Objectives
+
+* Install Active Directory Domain Services (AD DS)
+* Promote the server to Domain Controller
+* Create a domain (lab.local)
+* Manage users and organizational units
+
+---
