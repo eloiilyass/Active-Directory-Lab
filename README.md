@@ -85,3 +85,15 @@ This step shows selecting the Active Directory Domain Services (AD DS) role befo
 This step confirms the installation of Active Directory Domain Services before starting the installation process.
 
 ![Screen 9](./ad-confirm.png)
+
+### 🖥️ Screen 10: Promote to Domain Controller
+
+This step shows the option to promote the server to a Domain Controller after installing Active Directory Domain Services.
+
+![Screen 11](./promote.png)
+
+### 🖥️ Screen 11: Domain Controller Installation
+
+This step shows the installation process of promoting the server to a Domain Controller and configuring Active Directory with DNS.
+
+![Screen 11](./dc-install.png)
