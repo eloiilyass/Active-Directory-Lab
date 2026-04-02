@@ -134,6 +134,17 @@ This step shows the Windows 10 desktop after installation. The system is now rea
 
 ![Screen 18](./win10-desktop.png)
 
+### 🖥️ Screen 18.1: Client Network Configuration
+
+This step shows configuring the Windows 10 client network settings manually, including IP address and DNS pointing to the Domain Controller.
+
+* IP Address: 192.168.56.20
+* Subnet Mask: 255.255.255.0
+* DNS Server: 192.168.56.10 (Domain Controller)
+
+![Screen 18.1](./client-network.png)
+
+
 ### 🖥️ Screen 19: Join Windows 10 to Domain (Success)
 
 This step shows the process and confirmation of joining the Windows 10 client to the lab.local domain.
