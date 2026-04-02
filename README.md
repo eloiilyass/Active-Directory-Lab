@@ -47,8 +47,6 @@ This step shows the Windows Server 2019 desktop after successful installation. T
 
 ![Screen 5](./windows-desktop.png)
 
-# 🔹 Part 2: Active Directory Configuration
-
 ### 🖥️ Screen 5.1: Server Network Configuration
 
 This step shows configuring the Windows Server network settings with a static IP address and DNS for the Domain Controller.
@@ -61,6 +59,7 @@ This configuration ensures that the server can act as a Domain Controller and DN
 
 ![Screen 5.1](./server-network.png)
 
+# 🔹 Part 2: Active Directory Configuration
 
 In this part, we install and configure Active Directory Domain Services (AD DS), promote the server to a Domain Controller, and create a domain environment.
 
