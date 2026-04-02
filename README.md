@@ -20,7 +20,7 @@ This project simulates a real enterprise network using virtual machines.
 ### 🖥️ Screen 1: VMware Setup
 .![Screen 1](./vm-setup.png)
 
-### 🖥️ Screen 0: VM BIOS Configuration
+### 🖥️ Screen 2: VM BIOS Configuration
 
 This step shows the virtual machine configuration before installing Windows Server (BIOS, CPU, and system settings).
 
