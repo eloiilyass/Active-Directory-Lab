@@ -61,3 +61,11 @@ In this part, we install and configure Active Directory Domain Services (AD DS),
 * Manage users and organizational units
 
 ---
+
+- Open Server Manager
+- Click on "Add roles and features"
+- Click "Next" on Before You Begin
+- Select "Role-based or feature-based installation"
+- Click "Next"
+
+![Screen 7](./ad-install.png)
