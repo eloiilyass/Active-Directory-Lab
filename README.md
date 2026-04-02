@@ -103,3 +103,27 @@ This step shows the installation process of promoting the server to a Domain Con
 This step shows logging into the server using the domain account after successful Active Directory configuration.
 
 ![Screen 12](./dc-login.png)
+
+### 🖥️ Screen 13: Active Directory Users and Computers
+
+This step shows opening the Active Directory Users and Computers console to manage domain users, groups, and organizational units.
+
+![Screen 13](./ad-users.png)
+
+### 🖥️ Screen 14: Create Organizational Units
+
+This step shows creating Organizational Units (OUs) to organize users and resources within the domain.
+
+![Screen 14](./ou.png)
+
+### 🖥️ Screen 15: Create Domain Users
+
+This step shows creating a domain user inside an Organizational Unit.
+
+![Screen 15](./user.png)
+
+### 🖥️ Screen 15: Create Domain Users
+
+This step shows creating a domain user inside an Organizational Unit.
+
+![Screen 15](./user.png)
