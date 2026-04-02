@@ -122,8 +122,3 @@ This step shows creating a domain user inside an Organizational Unit.
 
 ![Screen 15](./user.png)
 
-### 🖥️ Screen 15: Create Domain Users
-
-This step shows creating a domain user inside an Organizational Unit.
-
-![Screen 15](./user.png)
