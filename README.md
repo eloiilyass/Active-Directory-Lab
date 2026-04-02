@@ -78,7 +78,7 @@ This step shows launching the Add Roles and Features wizard.
 
 This step shows selecting the Active Directory Domain Services (AD DS) role before installation.
 
-![Screen 8](./ad-install.png)
+![Screen 8](./ad-ds.png)
 
 ### 🖥️ Screen 9: Confirm Installation
 
