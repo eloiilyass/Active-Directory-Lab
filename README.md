@@ -97,3 +97,9 @@ This step shows the option to promote the server to a Domain Controller after in
 This step shows the installation process of promoting the server to a Domain Controller and configuring Active Directory with DNS.
 
 ![Screen 11](./dc-install.png)
+
+### 🖥️ Screen 12: Domain Controller Login
+
+This step shows logging into the server using the domain account after successful Active Directory configuration.
+
+![Screen 12](./dc-login.png)
