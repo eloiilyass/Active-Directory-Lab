@@ -62,10 +62,20 @@ In this part, we install and configure Active Directory Domain Services (AD DS),
 
 ---
 
-- Open Server Manager
-- Click on "Add roles and features"
-- Click "Next" on Before You Begin
-- Select "Role-based or feature-based installation"
-- Click "Next"
+### 🖥️ Screen 6: Server Manager Dashboard
+
+This step shows the Server Manager interface, where we can configure the server and start adding roles and features such as Active Directory.
+
+![Screen 6](./server-manager.png)
+
+### 🖥️ Screen 7: Add Roles and Features Wizard
+
+This step shows launching the Add Roles and Features wizard.
 
 ![Screen 7](./ad-install.png)
+
+### 🖥️ Screen 9: Confirm Installation
+
+This step confirms the installation of Active Directory Domain Services before starting the installation process.
+
+![Screen 9](./ad-confirm.png)
