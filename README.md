@@ -19,3 +19,21 @@ This project simulates a real enterprise network using virtual machines.
 
 ### 🖥️ Screen 1: VMware Setup
 .![Screen 1](./vm-setup.png)
+
+### 🖥️ Screen 0: VM BIOS Configuration
+
+This step shows the virtual machine configuration before installing Windows Server (BIOS, CPU, and system settings).
+
+![Screen 0](./vm-bios.png)
+
+### 🖥️ Screen 3: Windows Boot
+
+This step shows the Windows Server boot process before starting the installation.
+
+![Screen 3](./windows-boot.png)
+
+### 🖥️ Screen 4: Windows Server Edition Selection
+
+This step shows selecting the Windows Server 2019 Standard (Desktop Experience) version for installation.
+
+![Screen 4](./windows-edition.png)
