@@ -18,3 +18,4 @@ This project simulates a real enterprise network using virtual machines.
 ## 📸 Screenshots
 
 ### 🖥️ Screen 1: VMware Setup
+.![Screen 1](./vm-setup.png)
