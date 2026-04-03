@@ -1,181 +1,267 @@
-# Active Directory Lab
+# 🏢 Active Directory Lab (Infrastructure Setup)
 
 ## 📌 Project Overview
 
-This project simulates a real enterprise network using virtual machines.
+This project simulates the deployment of a **Windows Server infrastructure** and the implementation of **Active Directory Domain Services (AD DS)** in a virtual environment.
+
+It demonstrates the full process of building a domain from scratch, including server installation, network configuration, and domain management.
+
+---
 
 ## 🧱 Lab Architecture
 
-* Domain Controller: Windows Server 2025
-* Client Machine: Windows 10
-* Network: Host-only (internal network)
+* **Domain Controller:** Windows Server 2025
+* **Client Machine:** Windows 10
+* **Network Type:** Host-only (isolated internal network)
 
-## ⚙️ Technologies Used
+---
+
+## ⚙️ Technologies & Tools
 
 * VMware Workstation
 * Windows Server 2025
 * Windows 10
+* Active Directory Domain Services (AD DS)
+* DNS Configuration
+
+---
 
 # 🔹 Part 1: Windows Server Installation
 
-## 📸 Screenshots
+## 🎯 Objectives
+
+* Install Windows Server
+* Configure virtual machine resources
+* Prepare system for domain deployment
+
+---
 
 ### 🖥️ Screen 1: VMware Setup
-![Screen 1](./vm-setup.png)
 
-### 🖥️ Screen 2: VM BIOS Configuration
+This step shows the creation and configuration of the virtual machine.
 
-This step shows the virtual machine configuration before installing Windows Server (BIOS, CPU, and system settings).
+![VM Setup](./vm-setup.png)
 
-![Screen 0](./vm-bios.png)
+---
 
-### 🖥️ Screen 3: Windows Boot
+### 🖥️ Screen 2: VM Configuration (BIOS & Resources)
 
-This step shows the Windows Server boot process before starting the installation.
+This step shows CPU, memory, and BIOS configuration before installation.
 
-![Screen 3](./windows-boot.png)
+![VM BIOS](./vm-bios.png)
+
+---
+
+### 🖥️ Screen 3: Windows Server Boot
+
+This step shows the system boot process before installation.
+
+![Boot](./windows-boot.png)
+
+---
 
 ### 🖥️ Screen 4: Windows Server Edition Selection
 
-This step shows selecting the Windows Server 2019 Standard (Desktop Experience) version for installation.
+Selection of Windows Server Standard (Desktop Experience).
 
-![Screen 4](./windows-edition.png)
+![Edition](./windows-edition.png)
 
-### 🖥️ Screen 5: Windows Server First Boot
+---
 
-This step shows the Windows Server 2019 desktop after successful installation. The system is now ready for initial configuration and role setup.
+### 🖥️ Screen 5: First Boot
 
-![Screen 5](./windows-desktop.png)
+This step confirms successful installation of Windows Server.
 
-### 🖥️ Screen 5.1: Server Network Configuration
+![Desktop](./windows-desktop.png)
 
-This step shows configuring the Windows Server network settings with a static IP address and DNS for the Domain Controller.
+---
+
+### 🖥️ Screen 5.1: Network Configuration
+
+Configuration of static IP and DNS:
 
 * IP Address: 192.168.56.10
 * Subnet Mask: 255.255.255.0
-* Preferred DNS Server: 192.168.56.10
+* DNS Server: 192.168.56.10
 
-This configuration ensures that the server can act as a Domain Controller and DNS server for the network.
-
-![Screen 5.1](./server-network.png)
-
-# 🔹 Part 2: Active Directory Configuration
-
-In this part, we install and configure Active Directory Domain Services (AD DS), promote the server to a Domain Controller, and create a domain environment.
+![Network](./server-network.png)
 
 ---
+
+# 🔹 Part 2: Active Directory Deployment
 
 ## 🎯 Objectives
 
-* Install Active Directory Domain Services (AD DS)
-* Promote the server to Domain Controller
-* Create a domain (lab.local)
-* Manage users and organizational units
+* Install Active Directory Domain Services
+* Promote server to Domain Controller
+* Create domain environment
 
 ---
 
-### 🖥️ Screen 6: Server Manager Dashboard
+### 🖥️ Screen 6: Server Manager
 
-This step shows the Server Manager interface, where we can configure the server and start adding roles and features such as Active Directory.
+Access to server management dashboard.
 
-![Screen 6](./server-manager.png)
+![Server Manager](./server-manager.png)
 
-### 🖥️ Screen 7: Add Roles and Features Wizard
+---
 
-This step shows launching the Add Roles and Features wizard.
+### 🖥️ Screen 7: Add Roles and Features
 
-![Screen 7](./ad-install.png)
+Launching the installation wizard.
 
-### 🖥️ Screen 8: Active Directory Domain Services Selection
+![Install AD](./ad-install.png)
 
-This step shows selecting the Active Directory Domain Services (AD DS) role before installation.
+---
 
-![Screen 8](./ad-ds.png)
+### 🖥️ Screen 8: AD DS Selection
+
+Selecting Active Directory Domain Services.
+
+![AD DS](./ad-ds.png)
+
+---
 
 ### 🖥️ Screen 9: Confirm Installation
 
-This step confirms the installation of Active Directory Domain Services before starting the installation process.
+Validation before installation.
 
-![Screen 9](./ad-confirm.png)
+![Confirm](./ad-confirm.png)
+
+---
 
 ### 🖥️ Screen 10: Promote to Domain Controller
 
-This step shows the option to promote the server to a Domain Controller after installing Active Directory Domain Services.
+Initiating domain controller setup.
 
-![Screen 10](./promote.png)
+![Promote](./promote.png)
 
-### 🖥️ Screen 11: Domain Controller Installation
+---
 
-This step shows the installation process of promoting the server to a Domain Controller and configuring Active Directory with DNS.
+### 🖥️ Screen 11: Domain Controller Setup
 
-![Screen 11](./dc-install.png)
+Configuration of domain and DNS.
 
-### 🖥️ Screen 12: Domain Controller Login
+![DC Install](./dc-install.png)
 
-This step shows logging into the server using the domain account after successful Active Directory configuration.
+---
 
-![Screen 12](./dc-login.png)
+### 🖥️ Screen 12: Domain Login
 
-### 🖥️ Screen 13: Active Directory Users and Computers
+Successful login using domain credentials.
 
-This step shows opening the Active Directory Users and Computers console to manage domain users, groups, and organizational units.
+![Login](./dc-login.png)
 
-![Screen 13](./ad-users.png)
+---
+
+# 🔹 Part 3: Active Directory Management
+
+## 🎯 Objectives
+
+* Manage users and OUs
+* Structure domain
+
+---
+
+### 🖥️ Screen 13: AD Users and Computers
+
+Opening AD management console.
+
+![AD Users](./ad-users.png)
+
+---
 
 ### 🖥️ Screen 14: Create Organizational Units
 
-This step shows creating Organizational Units (OUs) to organize users and resources within the domain.
+Creation of OUs for structuring the domain.
 
-![Screen 14](./ou.png)
+![OU](./ou.png)
 
-### 🖥️ Screen 15: Create Domain Users
+---
 
-This step shows creating a domain user inside an Organizational Unit.
+### 🖥️ Screen 15: Create Users
 
-![Screen 15](./user.png)
+Adding domain users.
 
-### 🖥️ Screen 17: Windows 10 Edition Selection
+![User](./user.png)
 
-This step shows selecting Windows 10 Professional edition for the client machine installation.
+---
 
-![Screen 17](./win10-edition.png)
+# 🔹 Part 4: Client Configuration
 
-### 🖥️ Screen 18: Windows 10 First Boot
+## 🎯 Objectives
 
-This step shows the Windows 10 desktop after installation. The system is now ready to be configured and joined to the domain.
+* Install Windows 10
+* Join domain
+* Test connectivity
 
-![Screen 18](./win10-desktop.png)
+---
 
-### 🖥️ Screen 18.1: Client Network Configuration
+### 🖥️ Screen 17: Windows 10 Installation
 
-This step shows configuring the Windows 10 client network settings manually, including IP address and DNS pointing to the Domain Controller.
+Selecting Windows 10 edition.
+
+![Win10](./win10-edition.png)
+
+---
+
+### 🖥️ Screen 18: First Boot
+
+Windows 10 ready for configuration.
+
+![Desktop](./win10-desktop.png)
+
+---
+
+### 🖥️ Screen 18.1: Network Configuration
+
+Client configured with:
 
 * IP Address: 192.168.56.20
-* Subnet Mask: 255.255.255.0
-* DNS Server: 192.168.56.10 (Domain Controller)
+* DNS: 192.168.56.10
 
-![Screen 18.1](./client-network.png)
+![Client Network](./client-network.png)
 
+---
 
-### 🖥️ Screen 19: Join Windows 10 to Domain (Success)
+### 🖥️ Screen 19: Join Domain
 
-This step shows the process and confirmation of joining the Windows 10 client to the lab.local domain.
+Successful domain join process.
 
-<p align="center">
-  <img src="./join-domain-step.png" width="45%">
-  <img src="./join-domain.png" width="45%">
-</p>
+![Join Domain](./join-domain.png)
 
-### 🖥️ Screen 20: Domain User Login
+---
 
-This step shows logging into the Windows 10 client machine using a domain user account after successfully joining the lab.local domain.
+### 🖥️ Screen 20: Domain Login
 
-![Screen 20](./client-login.png)
+Login using domain user.
 
-## ✅ Conclusion
+![Client Login](./client-login.png)
 
-In this project, I successfully built a complete Active Directory lab environment using Windows Server and Windows 10.
+---
 
-I configured a Domain Controller, set up DNS, created users and organizational units, and joined a client machine to the domain.
+# ✅ Key Achievements
 
-This lab demonstrates my understanding of Windows Server administration, networking, and Active Directory concepts.
+* Installed and configured Windows Server
+* Deployed Active Directory Domain Services
+* Configured DNS and networking
+* Created domain users and OUs
+* Joined client machine to domain
+
+---
+
+# 🎯 Skills Demonstrated
+
+* Windows Server Administration
+* Active Directory Deployment
+* Network Configuration
+* DNS Setup
+* Virtualization (VMware)
+
+---
+
+# 📌 Conclusion
+
+This project demonstrates the complete setup of a **Windows Server domain infrastructure** from installation to client integration.
+
+It provides a strong foundation for system administration and enterprise network management.
